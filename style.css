@@ -16,5 +16,10 @@ p{
 
 }
 .delivery {
-    under
+    transition: text-decoration 0.15s ;
+    cursor: pointer;
+}
+.delivery:hover {
+    text-decoration: underline;
+
 }
