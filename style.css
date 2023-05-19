@@ -23,3 +23,11 @@ p{
     text-decoration: underline;
 
 }
+
+.profile {
+    height: 120px;
+    border-radius: 60px;
+}
+ .search {
+    vertical-align: middle;
+ }
