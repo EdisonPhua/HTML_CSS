@@ -4,5 +4,13 @@ p{
 
 .container{
   background-color: aqua;
-  
+
+}
+
+.email{
+  display: flex;
+}
+
+.email-content{
+  display: flex;
 }
