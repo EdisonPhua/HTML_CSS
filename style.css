@@ -30,17 +30,16 @@ p{
     object-fit: cover;
     vertical-align: middle;
 }
- .search {
-    vertical-align: middle;
-    border: none;
-    height: 50px;
-    padding-left: 20px;
-    font-size: 18px;
- }
+.search {
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+}
 
  .tweet {
     vertical-align: middle;
-    background-color: aqua;
+    background-color: rgb(110, 218, 218);
     color: white;
     border: none;
     padding: 5px 10px;
