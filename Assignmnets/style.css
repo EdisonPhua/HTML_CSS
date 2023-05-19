@@ -2,9 +2,16 @@ p{
   margin: 0;
 }
 
-.container{
-  background-color: aqua;
-
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .email{
