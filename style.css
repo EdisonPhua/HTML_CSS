@@ -27,6 +27,7 @@ p{
 .profile {
     height: 120px;
     border-radius: 60px;
+    object-fit: cover;
 }
  .search {
     vertical-align: middle;
