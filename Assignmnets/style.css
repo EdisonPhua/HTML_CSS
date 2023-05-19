@@ -1,4 +1,13 @@
 .profile {
+  display: inline-block;
+  margin: 0 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) ;
+  padding: 10px 10px;
+  
+}
+
+
+p{
   margin: 0;
 }
 
@@ -7,10 +16,19 @@
   width: 200px;
   object-fit: contain;
   margin-bottom: 0px;
+  padding: 0px 0px;
 }
 
 .name {
-  font-size: 40px;
-  
+  font-size: 30px;
+  font-weight: lighter;
 
+}
+.button{
+  margin-top: 10px;
+  background-color: blue;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 5px 10px;
 }
