@@ -18,6 +18,7 @@ p{
 
 .mail-content{
   display: flex;
+  
 }
 .mail-title{
   font-weight: bold;
