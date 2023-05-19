@@ -1,4 +1,14 @@
-.profile {
+
+
+
+.profile-pic {
   width: 200px;
   object-fit: contain;
+  margin-bottom: 0px;
+}
+
+.name {
+  font-size: 40px;
+  
+
 }
