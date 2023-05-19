@@ -31,5 +31,17 @@ p{
     vertical-align: middle;
 }
  .search {
+    vertical-align: middle;
+    border: none;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 18px;
+ }
+
+ .tweet {
+    vertical-align: middle;
+    background-color: aqua;
+    color: white;
+    border: none;
     
  }
