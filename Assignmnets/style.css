@@ -15,6 +15,18 @@ p{
   border-radius: 40px;
 }
 
-.mail-title{
 
+.mail-content{
+  display: flex;
+}
+.mail-title{
+  font-weight: bold;
+
+}
+.mail-time{
+   margin-left: 30px;
+}
+
+.mail-subtitle{
+  display: block;
 }
