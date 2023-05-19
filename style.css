@@ -1,13 +1,11 @@
 
 
 .profile {
-    height: 120px;
-    object-fit: cover;
-    vertical-align: middle;
+    display: block;
+    width: 200px;
+    margin-left: 150px;
     margin-bottom: 10px;
-
-    
-}
+  }
 .search {
   font-size: 18px;
   width: 300px;
