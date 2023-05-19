@@ -16,7 +16,7 @@ p{
   width: 200px;
   object-fit: contain;
   margin-bottom: 0px;
-  padding: 0px 0px;
+  padding: -10px -10px;
 }
 
 .name {
