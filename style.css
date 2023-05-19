@@ -28,6 +28,7 @@ p{
     height: 120px;
     border-radius: 60px;
     object-fit: cover;
+    vertical-align: middle;
 }
  .search {
     vertical-align: middle;
