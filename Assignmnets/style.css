@@ -1,36 +1,15 @@
-.bar {
+
+p{
+  margin: 0;
+}
+
+.mail-layout{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: rgb(160, 68, 247);
-  height: 40px;
-  align-items: center;
-  padding: 0 10px;
-}
-.left{
-
-  width: 60px;
-  font-size: 20px;
-  color: white;
+  align-items: flex-start;
 }
 
-.right{
-  width: 100px;
-  background-color: rgb(160, 68, 247);
-  color: white;
-  border-style: solid;
-  border-color: white;
-  padding: 5px 10px;
-  border-width: 1px;
-  font-size: 15px;
+.mail-img{
+  height: 60px ;
+  object-fit: cover;
+  border-radius: 40px;
 }
-
-.middle {
-  flex: 1;
-  max-width: 500px;
-  height: 20px;
-  border-radius: 10px;
-  padding-left: 10px;
-  border: none;
-}
-
