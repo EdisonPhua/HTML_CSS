@@ -3,10 +3,24 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    
+    <body>
+         <div className="App">
       Hello World
     </div>
+    <form >
+      <input type="input" placeholder='Enter a task' />
+      <button className='button'> Submit</button>
+    </form>
+ 
+    </body>
+
+
+
   );
 }
+
+
+
 
 export default App;
