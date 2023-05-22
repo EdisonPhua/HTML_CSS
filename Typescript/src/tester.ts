@@ -17,7 +17,8 @@ class person1{
 
     }
 }
-//This receives a input of type 'T' and returns the type 'T' as well
+// This receives a input of type 'T' and returns the type 'T' as well
+// Can you used to 'convert' to different types
 function generrics<T>(input : T): T {
     return input
 }
