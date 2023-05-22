@@ -3,8 +3,10 @@
 
 .App {
   background-color: rgb(51, 114, 250);
+  height: 1000cm;
+  margin-top: -20px;
 }
 
 .heading {
-  
+
 }
