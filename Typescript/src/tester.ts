@@ -25,3 +25,20 @@ function generrics<T,>(input : T): T {
 const generrics1 = <T,>(input : T): T => {
     return input
 }
+
+//Interfaces are similar to types but with some differences. SUch as, reopening, inheritance
+//reopening
+
+interface before {
+    name : string,
+    email : string,
+    purhcase : boolean
+}
+interface before {
+    month : number
+}
+
+//inheritance 
+interface after extends before{
+    year : number
+}
