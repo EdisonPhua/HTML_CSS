@@ -17,4 +17,7 @@ class person1{
 
     }
 }
-
+//This receives a input of type 'T' and returns the type 'T' as well
+function generrics<T>(input : T): T {
+    return input
+}
