@@ -6,7 +6,11 @@ function App() {
     
     <div className='App'>
       <p className='heading'> Taskify </p>
-      
+      <form action="">
+        <input type="text" placeholder='Enter your task' className='input-box' />
+        <button className='button-submit'>Submit</button>
+      </form>
+
 
     </div>
 
