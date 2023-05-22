@@ -46,3 +46,19 @@ interface after extends before{
 
 
 //Narrowing used to detectTypes 'Type Guards'
+interface user {
+    name : string,
+    email : string,
+}
+interface admin {
+    name :string,
+    email : string,
+    isAdmin : boolean
+}
+//Checks to see if the variable 'value' contains 'isadmin' which indirectly 
+//confirms whether or not 'value' is of tpye admin or user
+function adminchecker(value: user | admin) {
+    if ("isAdmin" in value){
+        return value.isAdmin
+    }
+}
