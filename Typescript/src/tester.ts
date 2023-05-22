@@ -19,9 +19,9 @@ class person1{
 }
 // This receives a input of type 'T' and returns the type 'T' as well
 // Can you used to 'convert' to different types
-function generrics<T>(input : T): T {
+function generrics<T,>(input : T): T {
     return input
 }
-const generrics1 = <T>(input : T): T => {
+const generrics1 = <T,>(input : T): T => {
     return input
 }
