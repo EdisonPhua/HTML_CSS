@@ -45,4 +45,4 @@ interface after extends before{
 
 
 
-//Narrowing used to detectTypes
+//Narrowing used to detectTypes 'Type Guards'
