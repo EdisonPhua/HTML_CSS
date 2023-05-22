@@ -2,7 +2,7 @@ body {
   background-color: rgb(51, 114, 250);
 }
 
-.app {
+.App {
   display: flex;
-  
+  justify-content: center;
 }
