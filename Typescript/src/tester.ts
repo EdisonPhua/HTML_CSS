@@ -42,3 +42,7 @@ interface before {
 interface after extends before{
     year : number
 }
+
+
+
+//Narrowing used to detectTypes
