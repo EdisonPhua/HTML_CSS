@@ -22,3 +22,6 @@ class person1{
 function generrics<T>(input : T): T {
     return input
 }
+const generrics1 = <T>(input : T): T => {
+    return input
+}
