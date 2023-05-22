@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 
-body {
+.App {
   background-color: rgb(51, 114, 250);
 }
 
-.App {
-  display: flex;
-  justify-content: center;
-  font-family: Roboto;
+.heading {
   
 }
